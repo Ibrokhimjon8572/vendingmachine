@@ -10,3 +10,14 @@ class Ustun:
     @property
     def ichimlik_soni(self):
         return self._ichimlik_soni
+    
+    @ichimlik_nomi.setter
+    def ichimlik_nomi(self, value):
+        self._ichimlik_nomi = value
+
+    @ichimlik_soni.setter
+    def ichimlik_soni(self, value):
+        self._ichimlik_soni += value
+
+    def sell_beverage(self):
+        self._ichimlik_soni -= 1
