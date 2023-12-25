@@ -11,6 +11,7 @@ class Ustun:
     def ichimlik_soni(self):
         return self._ichimlik_soni
     
+    
     @ichimlik_nomi.setter
     def ichimlik_nomi(self, value):
         self._ichimlik_nomi = value

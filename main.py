@@ -34,10 +34,5 @@ vendingmachine.refill_column(1, "Pepsi", 16)
 # vendingmachine.refill_column(3, "Cola", 10)
 # print(vendingmachine.ustun_list[0].ichimlik_soni, vendingmachine.ustun_list[0].ichimlik_nomi)
 
-# print(vendingmachine.available('Cola'))
-
-# print("ustun -->", vendingmachine.sell(1, 'fanta'), " dan kamaytirildi")
-# print(vendingmachine.get_card(1))
-# print(vendingmachine.ustun_list[0].ichimlik_soni)
 print(vendingmachine.sell(1000, "Pepsi"))
 

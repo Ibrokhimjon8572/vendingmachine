@@ -2,6 +2,9 @@ class Ichimlik:
     def __init__(self, nomi, narxi) -> None:
         self._nomi = nomi
         self._narxi = narxi
+
+
+        
     @property
     def nomi(self):
         return self._nomi
